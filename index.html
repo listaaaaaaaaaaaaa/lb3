@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>lab 3</title>
+
+</head>
+<body>
+
+<img id="image" src="img1.jpg" alt="Изображение" width="300" height="200">
+<br>
+
+<button onclick="changeImage()">Следующая картинка</button>
+
+<form id="imageForm">
+    <label for="width">Ширина:</label>
+    <input type="number" id="width" name="width" value="300">
+    <label for="height">Высота:</label>
+    <input type="number" id="height" name="height" value="200">
+    <label for="borderWidth">Толщина рамки:</label>
+    <input type="number" id="borderWidth" name="borderWidth" value="2">
+    <label for="altText">Альтернативный текст:</label>
+    <input type="text" id="altText" name="altText" value="Изображение">
+    <input type="submit" value="Применить">
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
